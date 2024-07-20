@@ -120,7 +120,7 @@ Method: GET
 
 ---
 
-## **4th 4. Borrow Money API**
+## **4th Borrow Money using API**
 
 URL: /api/borrow
 
@@ -140,6 +140,39 @@ Method: POST
 
 
 ● Return the updated Purchase Power amount and the monthly repayment amount.
+
+
+Soltn ->
+
+
+#### On the basis of **token** user authentication can be done, and then only user can borrow..
+
+
+**-->** here if user **purchasePower** > **loan amount** , then only user can borrow amount..
+
+
+let's understand using example..
+
+
+1st i will borrow 3000 as shown in below image..
+
+
+![image](https://github.com/user-attachments/assets/c5665f92-dc74-4585-8002-759e3b77abd2)
+
+
+**-->** here as you can see, user borrowed 3000, and then rest 96000 left as purchase power,  and also showing how much **monthly repayment** he need to do..
+
+
+### 2nd i will borrow amount which will be greater than purchase amount...
+
+
+![image](https://github.com/user-attachments/assets/f1afbc45-f8b6-4cab-b7d5-e42a25694476)
+
+
+In above image you can see since loan amount is greater than purcghase amount so, user can't borrow.
+
+
+
 
 
 
